@@ -8,7 +8,7 @@ export default function App() {
   useEffect(() => {
     console.log('effect start');
     if (age === 95) {
-      setCount(95);
+      setCount(100);
     }
   }, [age]);
   return (
