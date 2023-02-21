@@ -14,7 +14,7 @@ export default function App() {
   return (
     <div>
       <div onClick={() => setCount(count + 1)}>aaa{count}</div>
-      <div onClick={() => setAge(age + 1)}>bbb{age}</div>
+      <div onClick={() => setAge(age + 1)}>ccc{age}</div>
     </div>
   );
 }
